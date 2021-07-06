@@ -1,5 +1,5 @@
 input.onButtonPressed(Button.A, function () {
-    radio.sendString("move rg")
+    radio.sendString("move right")
 })
 radio.onReceivedString(function (receivedString) {
     basic.showString(receivedString)
